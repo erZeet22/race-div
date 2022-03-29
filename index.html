@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div {
+            /* background-color: green; */
+            height: 100vh;
+            background: url('sedan.png') no-repeat, url('car.png') no-repeat, url('baby-car.png') no-repeat, url('motor-sports.png') no-repeat, url('road.png'), repeat;
+            background-size: auto 16%, auto 17%, auto 15%, auto 12%, auto 25%;
+            background-position: top 0% left 5%, top 35% left 5%, top 70% left 5%, top 85% left 5%, top 0% left 0%;
+            transition: background-position 20s ease;
+        }
+        
+        div:hover {
+            background-position: top 0% left 150%, top 35% left 170%, top 70% left 200%, top 85% left 280%, top 0% left -300%;
+        }
+        
+        body {
+            margin: 0px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>
